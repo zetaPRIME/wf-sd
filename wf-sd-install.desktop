@@ -1,17 +1,7 @@
 [Desktop Entry]
-Comment[en_US]=
-Comment=
-Exec=sh -c 'rm /tmp/wf-sd-install.sh; if curl -S -s -f -L -O --output-dir /tmp/ --connect-timeout 60 https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/wf-sd-install.sh; then bash /tmp/wf-sd-install.sh; else zenity --error --text="Unable to download install script; please check your internet connection and try again momentarily."; fi'
-GenericName[en_US]=
-GenericName=
-Icon=steamdeck-gaming-return
-MimeType=
-Name[en_US]=Install Zia's Integrated Deckframe
 Name=Install Zia's Integrated Deckframe
-Path=
-StartupNotify=false
+Exec=sh -c 'rm /tmp/wf-sd-install.sh; if curl -S -s -f -L -O --output-dir /tmp/ --connect-timeout 60 https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/wf-sd-install.sh; then bash /tmp/wf-sd-install.sh; else zenity --error --text="Unable to download install script; please check your internet connection and try again momentarily."; fi'
+Icon=steamdeck-gaming-return
 Terminal=false
-TerminalOptions=
 Type=Application
-X-KDE-SubstituteUID=false
-X-KDE-Username=
+StartupNotify=false
