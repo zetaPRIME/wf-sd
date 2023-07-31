@@ -10,4 +10,4 @@ Due to some details of how Warframe behaves, the input configuration won't be fu
 1. Switch back to Gaming Mode, open Warframe's input configuration in the game profile screen (controller icon), and apply the latest version of "Zia's Integrated Deckframe" from Community Layouts.
 1. Done! Launch the game and enjoy.
 
-  - Alternatively, if you'd rather do it manually instead of trusting a script you found on the internet, you can download [EE.cfg](https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/EE.cfg) and copy it into `/home/deck/.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe` using your file manager.
+-  - Alternatively, if you'd rather do it manually instead of trusting a script you found on the internet, you can download [EE.cfg](https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/EE.cfg) and copy it into `/home/deck/.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe` using your file manager.
