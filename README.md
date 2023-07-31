@@ -1,7 +1,24 @@
 # Zia's Integrated Deckframe
-Warframe Steam Deck input configuration files
+A Steam Input profile for Warframe on Steam Deck, compatible with Echoes of Duviri. Uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience.
 
+## Features and Bindings
+Much of the controls are the defaults, but there are several adjustments and additions:
+- **L1**: Roll/Blink
+- **R1**: Quick Melee (B is still also mapped)
+- **L4**: Crouch/Slide, Descend
+- **R4**: Jump, Ascend
+- **L5**: Use selected ability
+- **R5**: Ability menu replacement
+  - Order is **X-A-Y-B**. Directions will feel familiar to rhythm game players.
+  - **DPad Up**: Tactical Menu (*Railjack*)
+  - **DPad Left**: Inspect
+  - **DPad Right**: Equip Omni
+  - **Quick press and release**: Use selected ability
+- **DPad Down**: Transference
 
+- Fixed Shawzin controls (replaced most of them with their equivalent keyboard bindings since the Actions are currently nonfunctional.)
+  - **R4* *or* **Menu Button**: Switch scale
+  - *Whammy functionality not working; it will return when the game itself is fixed.*
 
 ## Installation
 Due to some details of how Warframe behaves, the input configuration won't be fully functional without key bindings that can't be set in the game itself if it's running through Steam on a Steam Deck. This script will install a replacement config file with all the bindings you need, plus a set of reasonable defaults for the Deck. (Your previous configuration )
