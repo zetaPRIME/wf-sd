@@ -27,6 +27,7 @@ Much of the controls are the defaults, but there are several adjustments and add
   - **Click**: Altfire / Heavy Attack
   - *Be aware that the sensitivity is set to 200% to better expose the trackpad's resolution. Tweak your ingame look sensitivity accordingly.*
 - **Left Trackpad** (*click*): Access Gear Wheel. Slide to select, click again to use selected item; release to cancel out of menu.
+  - Also used to access Decrees.
   - *Due to Steam Input limitations, this will behave strangely in other menus. Stick sensitivity has been adjusted to minimize impact.*
 
 - Fixed Shawzin controls (replaced most of them with their equivalent keyboard bindings since the Actions are currently nonfunctional.)
