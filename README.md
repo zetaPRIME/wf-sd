@@ -1,5 +1,5 @@
 # Zia's Integrated Deckframe
-A Steam Input profile for Warframe on Steam Deck, compatible with Echoes of Duviri. Fixes numerous issues with the official configuration, and uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience which takes full advantage of the Deck's input capabilities.
+A Steam Input profile for Warframe on Steam Deck, fully compatible with Echoes of Duviri. Fixes numerous issues with the official configuration, and uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience which takes full advantage of the Deck's input capabilities.
 
 ## Features and Bindings
 Much of the controls are the defaults, but there are several adjustments and additions:
