@@ -2,7 +2,7 @@
 A Steam Input profile for Warframe on Steam Deck, fully compatible with Echoes of Duviri. Fixes numerous issues with the official configuration, and uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience which takes full advantage of the Deck's input capabilities.
 
 ### Current Version:
-#### [v1.0.1](steam://controllerconfig/230410/3013513936)
+#### [v1.0.1](steam://controllerconfig/230410/3013555632)
 
 ## Features and Bindings
 Much of the controls are the defaults, but there are several adjustments and additions:
@@ -41,7 +41,7 @@ Much of the controls are the defaults, but there are several adjustments and add
 Due to some details of how Warframe behaves, the input configuration won't be fully functional without key bindings that can't be set in the game itself if it's running through Steam on a Steam Deck. This script will install a replacement config file with all the bindings you need, plus a set of reasonable defaults for the Deck. (This only affects keybindings, input and graphics settings. Your previous configuration will be backed up.)
 1. Switch your Steam Deck to desktop mode and navigate to this page. (`https://github.com/zetaprime/wf-sd`)
 1. [Download the installer file](https://github.com/zetaPRIME/wf-sd/releases/download/v1.0.0/wf-sd-install.desktop), drag it onto the desktop and double-click it. (If you're using Firefox, the file will be named `wf-sd-install.desktop.download`; rename it to `wf-sd-install.desktop` before trying to run it.)
-1. Copy the [link to the current version](steam://controllerconfig/230410/3013513936) into a Steam message, switch to Gaming Mode, open the conversation and tap on the link; apply the layout from the resulting screen. (*Apologies for the clunky workaround.*)
+1. Copy the [link to the current version](steam://controllerconfig/230410/3013555632) into a Steam message, switch to Gaming Mode, open the conversation and tap on the link; apply the layout from the resulting screen. (*Apologies for the clunky workaround.*)
 1. Launch the game and modify your in-game settings according to the [Recommended Settings](#recommended-settings).
 1. Enjoy!
 
