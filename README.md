@@ -75,4 +75,6 @@ Due to some details of how Warframe behaves, the input configuration won't be fu
 
 ### I can't find the layout...
 If you can manage to get this URL shoved into Steam on your Deck, it should give you a working copy of v1.0.0.
-`steam://controllerconfig/230410/3013141961`
+`steam://controllerconfig/230410/3013141961` 
+(You should be able to get it by sending it in a Steam message and clicking it on your Deck.)
+
