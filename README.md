@@ -1,6 +1,9 @@
 # Zia's Integrated Deckframe
 A Steam Input profile for Warframe on Steam Deck, fully compatible with Echoes of Duviri. Fixes numerous issues with the official configuration, and uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience which takes full advantage of the Deck's input capabilities.
 
+### Current Version:
+#### [v1.0.1](steam://controllerconfig/230410/3013513936)
+
 ## Features and Bindings
 Much of the controls are the defaults, but there are several adjustments and additions:
 - **Left Stick**: Move / Sprint (*when at outer edge*)
@@ -38,7 +41,7 @@ Much of the controls are the defaults, but there are several adjustments and add
 Due to some details of how Warframe behaves, the input configuration won't be fully functional without key bindings that can't be set in the game itself if it's running through Steam on a Steam Deck. This script will install a replacement config file with all the bindings you need, plus a set of reasonable defaults for the Deck. (This only affects keybindings, input and graphics settings. Your previous configuration will be backed up.)
 1. Switch your Steam Deck to desktop mode and navigate to this page. (`https://github.com/zetaprime/wf-sd`)
 1. [Download the installer file](https://github.com/zetaPRIME/wf-sd/releases/download/v1.0.0/wf-sd-install.desktop), drag it onto the desktop and double-click it. (If you're using Firefox, the file will be named `wf-sd-install.desktop.download`; rename it to `wf-sd-install.desktop` before trying to run it.)
-1. Switch back to Gaming Mode, open Warframe's input configuration in the game profile screen (controller icon), and apply the latest version of "Zia's Integrated Deckframe" from Community Layouts.
+1. Copy the [link to the current version](steam://controllerconfig/230410/3013513936) into a Steam message, switch to Gaming Mode, open the conversation and tap on the link; apply the layout from the resulting screen. (*Apologies for the clunky workaround.*)
 1. Launch the game and modify your in-game settings according to the [Recommended Settings](#recommended-settings).
 1. Enjoy!
 
@@ -68,13 +71,16 @@ Due to some details of how Warframe behaves, the input configuration won't be fu
 - **Repeated Button Presses**: Hold
 - **Enable HUD Motion**: off
 
+## Changelog
+#### V1.0.1
+- Small tweaks to allow operation of Narmer security cameras.
+  - Added an Enter keypress to the A button and Right Trackpad click to allow triggering objects.
+  - Switched the "pause game" input to the Escape key to allow exiting.
+
+#### V1.0.0
+- Initial release.
+
 ## Known Issues
 - Whammy functionality while playing Shawzin is currently nonfunctional. (game bug)
 - Paragrimm controls currently aren't hooked up to Steam Input. Not much I can do about that, sadly.
-- The cameras in Sneaky Sabotage might not be hooked up to Steam Input yet.
-
-### I can't find the layout...
-If you can manage to get this URL shoved into Steam on your Deck, it should give you a working copy of v1.0.0.
-`steam://controllerconfig/230410/3013141961` 
-(You should be able to get it by sending it in a Steam message and clicking it on your Deck.)
-
+- B button doesn't exit the cameras in Break Narmer missions
