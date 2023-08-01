@@ -29,7 +29,10 @@ if ! curl -S -s -f -L -O --output-dir /tmp/ --connect-timeout 60 https://raw.git
 	exit
 fi
 
-[[ -f "$CFGPATH" ]] && displace "$CFGPATH"
+[[ -f "$CFGPATH" ]] && { # if EE.cfg already exists...
+	grep "Client.Email=" "$CFGPATH" >> /tmp/EE.cfg # carry saved login into our new config
+	displace "$CFGPATH" # and back up
+}
 mv /tmp/EE.cfg "$CFGPATH"
 
 zen --info --text "Installation complete!"
