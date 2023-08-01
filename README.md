@@ -10,6 +10,7 @@ Much of the controls are the defaults, but there are several adjustments and add
 - **R4**: Jump, Ascend
 - **L5**: Use selected ability
 - **R5**: Ability menu replacement
+  - Reimplemented as an action layer setup due to the built-in one interrupting crouching/sliding, sprinting and aim gliding.
   - Order is **X, A, Y, B**. (*Directions should feel familiar to rhythm game players.*)
   - **DPad Up**: Tactical Menu (*Railjack*)
   - **DPad Left**: Inspect
