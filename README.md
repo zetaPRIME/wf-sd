@@ -1,5 +1,5 @@
 # Zia's Integrated Deckframe
-A Steam Input profile for Warframe on Steam Deck, compatible with Echoes of Duviri. Uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience.
+A Steam Input profile for Warframe on Steam Deck, compatible with Echoes of Duviri. Fixes numerous issues with the official configuration, and uses a combination of Steam Input actions, mouse and keyboard bindings to provide a much more fluid and integrated experience.
 
 ## Features and Bindings
 Much of the controls are the defaults, but there are several adjustments and additions:
@@ -10,17 +10,17 @@ Much of the controls are the defaults, but there are several adjustments and add
 - **R4**: Jump, Ascend
 - **L5**: Use selected ability
 - **R5**: Ability menu replacement
-  - Order is **X, A, Y, B**. Directions will feel familiar to rhythm game players.
+  - Order is **X, A, Y, B**. (*Directions should feel familiar to rhythm game players.*)
   - **DPad Up**: Tactical Menu (*Railjack*)
   - **DPad Left**: Inspect
   - **DPad Right**: Equip Omni
   - **Quick press and release**: Use selected ability
-  - *Invert Tap/Hold settings apply to 
+  - *Invert Tap/Hold settings are applied from the Controller section of the Options screen.*
 - **DPad Down**: Transference
 
 - **Menu Button** (*left side*): Show quick progress screen
   - **Start Button**: Toggle overlay map
-  - **X, A, Y, B**: Abilities via vanilla Ability Menu. **Changing fishing equipment** requires this method.
+  - **X, A, Y, B**: Abilities via vanilla Ability Menu. **Switching fishing/conservation equipment requires this method!**
 
 - **Right Trackpad**: Camera / Aiming (*as mouse*)
   - **Click**: Altfire / Heavy Attack
@@ -43,8 +43,28 @@ Due to some details of how Warframe behaves, the input configuration won't be fu
 - - Alternatively, if you'd rather do it manually instead of trusting a script you found on the internet, you can download [EE.cfg](https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/EE.cfg) and copy it into `/home/deck/.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe` using your file manager.
 
 ## Recommended Settings
+### Keyboard/Mouse
+- **Look Sensitivity**: 23
+- **Aim Sensitivity** (*normal and scoped*): 23
+- Match above in Archwing
+- **Railjack Look Sensitivity**: 100
+- **Railjack Aim Sensitivity** (*normal and scoped*): 25
+- **Pilot Centered Crosshair**: off
+
 ### Controller
-- Hold to Sprint: ON (**REQUIRED**)
+- **Look Sensitivity** (*all*): 40
+- **Aim Sensitivity** (*all*): 20
+- **Pilot Centered Crosshair**: on
+  - *This will allow you to aim within your view with the trackpad when you're mainly firing, while taking more direct control of the vehicle with the right stick.*
+
+### Interface
+- **HUD Scale**: 110
+- **Damage Numbers Scale**: 75
+
+### Accessibility
+- **Hold to Sprint** (*Keyboard/Mouse and Controller*): ON (**REQUIRED** for sprinting to work properly!)
+- **Repeated Button Presses**: Hold
+- **Enable HUD Motion**: off
 
 ## Known Issues
 - Whammy functionality while playing Shawzin is currently nonfunctional. (game bug)
