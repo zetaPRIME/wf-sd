@@ -42,7 +42,7 @@ Due to some details of how Warframe behaves, the input configuration won't be fu
 - - Alternatively, if you'd rather do it manually instead of trusting a script you found on the internet, you can download [EE.cfg](https://raw.githubusercontent.com/zetaPRIME/wf-sd/main/EE.cfg) and copy it into `/home/deck/.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe` using your file manager.
 
 ### And what if I don't want to replace my configuration?
-Archwing/Razorwing blink requires roll mapped to C on the keyboard. You can manually edit your EE.cfg with the proper binding, referencing the provided one.  
+Archwing/Razorwing blink requires roll mapped to C on the keyboard. You can manually edit your EE.cfg with the proper binding, referencing the provided one. If you don't want to do that, you can edit the control scheme and replace the Steam Input Action on R1 with the Shift key. (Keep it as a Start Press binding.)  
 Other needed settings:
 - Hold to sprint (keyboard and controller)
 
