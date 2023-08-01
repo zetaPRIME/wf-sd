@@ -35,7 +35,7 @@ Much of the controls are the defaults, but there are several adjustments and add
 ## Installation
 Due to some details of how Warframe behaves, the input configuration won't be fully functional without key bindings that can't be set in the game itself if it's running through Steam on a Steam Deck. This script will install a replacement config file with all the bindings you need, plus a set of reasonable defaults for the Deck. (This only affects keybindings, input and graphics settings. Your previous configuration will be backed up.)
 1. Switch your Steam Deck to desktop mode and navigate to this page. (`https://github.com/zetaprime/wf-sd`)
-1. [Download the installer file](https://github.com/zetaPRIME/wf-sd/releases/download/latest/wf-sd-install.desktop), drag it onto the desktop and double-click it. (If you're using Firefox, the file will be named `wf-sd-install.desktop.download`; rename it to `wf-sd-install.desktop` before trying to run it.)
+1. [Download the installer file](https://github.com/zetaPRIME/wf-sd/releases/download/v1.0.0/wf-sd-install.desktop), drag it onto the desktop and double-click it. (If you're using Firefox, the file will be named `wf-sd-install.desktop.download`; rename it to `wf-sd-install.desktop` before trying to run it.)
 1. Switch back to Gaming Mode, open Warframe's input configuration in the game profile screen (controller icon), and apply the latest version of "Zia's Integrated Deckframe" from Community Layouts.
 1. Launch the game and modify your in-game settings according to the [Recommended Settings](#recommended-settings).
 1. Enjoy!
